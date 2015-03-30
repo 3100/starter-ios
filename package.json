@@ -1,6 +1,6 @@
 {
-  "author": "Your Name Here",
-  "name": "REAPP_NAME",
+  "author": "3100",
+  "name": "",
   "repository": "",
   "description": "",
   "version": "1.0.0",
@@ -8,7 +8,8 @@
   "reapp": "0.8",
   "scripts": {
     "test": "",
-    "start": "reapp run"
+    "start": "reapp run",
+    "build:ios": "./scripts/build-ios.sh"
   },
   "dependencies": {
     "react": "^0.13.1",
@@ -17,6 +18,7 @@
     "reapp-ui": "^0.11.0",
     "reapp-routes": "^0.10.0",
     "reapp-request": "^0.2.0",
-    "reapp-component": "^1.0.0"
+    "reapp-component": "^1.0.0",
+    "delorean": "^0.9.3"
   }
 }
